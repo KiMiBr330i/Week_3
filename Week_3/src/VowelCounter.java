@@ -17,7 +17,7 @@ public class VowelCounter {
 			
 			string = scan.nextLine();
 			System.out.println(string.length());
-			if charAt()
+		
 		
 		
 
