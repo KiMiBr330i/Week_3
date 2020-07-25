@@ -18,9 +18,11 @@ public class VowelCounter {
 		String string;
 		int max, count, aChar;
 		
-		System.out.print("Type something with vowels in it: ");
+		System.out.println("Type something with vowels in it: ");
 		string = scan.nextLine();
 		System.out.println("This is what you typed: " + string);
+	
+		System.out.println(string.indexOf('a'));
 		
 	}
 	
@@ -37,4 +39,4 @@ public class VowelCounter {
 			
 	}
 
-}
+
