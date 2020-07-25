@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class EvenNumSum {
 
 	public static void main(String[] args) {
-		
+
 		Scanner user = new Scanner(System.in);
 		int newinput, userinput, input = 0, sum = 0;
 		System.out.println("This is the even number adder program.");
@@ -19,17 +19,15 @@ public class EvenNumSum {
 				sum += input;
 
 			}
-			// }
+		} else
+			while (input < userinput) {
+				input = input + 2;
+				sum += input;
+				
 
-			// }
-			// if (userinput % 2 != 0) {
-			// newinput = (userinput + 0);
-			// while (input <= userinput) {
-			// input = input + 2;
-			// sum += input;
-
-		}
+			}
 		System.out.println("This is the sum of the even numbers: " + sum);
 
+		user.close();
 	}
 }
